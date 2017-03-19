@@ -5,7 +5,7 @@ var json2csv = require('json2csv');
 var fs = require('fs');
 
 var START_URL = "https://medium.com/";
-var MAX_PAGES_TO_VISIT = 20;
+var MAX_PAGES_TO_VISIT = 100;
 
 var pagesVisited = {};
 var numPagesVisited = 0;
